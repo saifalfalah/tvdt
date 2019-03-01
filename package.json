@@ -1,0 +1,27 @@
+{
+  "name": "twitter-downloader-backend",
+  "version": "1.2.0",
+  "description": "Backed for the Twitter Video Downloader",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "author": "Saif Al Falah",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^6.3.1",
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "date-fns": "^1.29.0",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "helmet": "^3.13.0",
+    "is-url": "^1.2.4",
+    "moment": "^2.22.2",
+    "mongoose": "^5.3.8",
+    "morgan": "^1.9.1",
+    "url-parse": "^1.4.3"
+  }
+}

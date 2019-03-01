@@ -1,0 +1,8 @@
+{
+  "env": {
+    "DB": "@tvddb",
+    "TOKEN": "@tvdtwittertoken",
+    "SENDGRID_API_KEY": "@tvd-sendgrid-email-key",
+    "NODE_ENV": "production"
+  }
+}
