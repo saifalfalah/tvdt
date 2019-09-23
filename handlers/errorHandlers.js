@@ -30,9 +30,10 @@ exports.productionErrors = (err, req, res, next) => {
       break;
     case "620":
       req.code = "620: request to an unsupported route";
-      res.send(
-        "Welcome to Twitter Video Downloader for Siri. Made by Saif Al Falah (u/freelancedev_, @saifalfalah)."
-      );
+      res.redirect("https://tvdl.saif.dev/?ref=nowEndpoint");
+      // res.send(
+      //   "Welcome to Twitter Video Downloader for Siri. Made by Saif Al Falah (u/freelancedev_, @saifalfalah)."
+      // );
       break;
     default:
       console.log(`CRITICAL ERROR OCCURRED: ${err}`);
