@@ -191,6 +191,7 @@ async function todaysRequests(modelName) {
     console.log(error);
     throw error;
   }
+  console.log(result);
   return result[0].count;
 }
 
