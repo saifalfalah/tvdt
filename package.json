@@ -20,7 +20,7 @@
     "helmet": "^3.13.0",
     "is-url": "^1.2.4",
     "moment": "^2.22.2",
-    "mongoose": "^5.3.8",
+    "mongoose": "^5.7.5",
     "morgan": "^1.9.1",
     "url-parse": "^1.4.3"
   }
