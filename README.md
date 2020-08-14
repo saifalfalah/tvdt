@@ -1,5 +1,5 @@
 # tvdt
 
-Twitter Video Downloader for Siri Shortcuts
+Twitter Video Downloader for Siri Shortcuts - v1
 
-This project is soon to be deprecated. Version 2 coming soon.
+This project has been deprecated. For latest updates, please take a look at [Version 2](https://github.com/saifalfalah/tvdl-2).
